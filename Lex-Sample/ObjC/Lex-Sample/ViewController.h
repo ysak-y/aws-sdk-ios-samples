@@ -15,11 +15,20 @@
 
 #import <UIKit/UIKit.h>
 #import <AWSLex/AWSLex.h>
+#import <AWSPolly/AWSPolly.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : UIViewController
+#import <AudioToolbox/AudioToolbox.h>
+#import "snowboy-detect.h"
+
+@interface ViewController : UIViewController{
+}
 
 @property (weak, nonatomic) IBOutlet AWSLexVoiceButton *voiceButton;
 @property (weak, nonatomic) IBOutlet UILabel *output;
+
+@property (nonatomic) AVAudioPlayer *audioPlayer;
+@property (nonatomic) AWSLexInteractionKit *interactionKit;
 
 
 @property (nonatomic, weak) id<AWSLexVoiceButtonDelegate> delegate;

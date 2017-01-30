@@ -14,6 +14,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "snowboy-detect.h"
+
+/*
+    snow-boy入れるためにやったこと
+    build-settiongのsource compile を objective-c++にした
+    coregraphicsのフレームワークを追加した。
+ */
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

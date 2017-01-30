@@ -16,6 +16,7 @@
 #import <UIKit/UIKit.h>
 #import <JSQMessagesViewController/JSQMessages.h>
 
+
 @interface ChatViewController : JSQMessagesViewController<UIActionSheetDelegate, JSQMessagesComposerTextViewPasteDelegate>
 
 @end

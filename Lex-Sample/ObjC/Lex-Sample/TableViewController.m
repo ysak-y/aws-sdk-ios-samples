@@ -23,12 +23,11 @@
 @end
 
 @implementation TableViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     self.conversationTypes = [[NSArray alloc]initWithObjects:@"Voice", @"Chat", nil];
-    
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -65,6 +64,5 @@
         [self performSegueWithIdentifier:@"chatcontroller" sender:self];
     }
 }
-
 
 @end

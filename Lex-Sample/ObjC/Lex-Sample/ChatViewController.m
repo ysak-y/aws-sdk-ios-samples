@@ -235,6 +235,35 @@
                       completionSource:(AWSTaskCompletionSource<NSString *> *)completionSource{
     textModeSwitchingCompletion = completionSource;
 }
-#pragma mark -
+
+
+
+#pragma mark - BFAudio
+
+- (void)dispatchBlockOnMainQueue:(void (^)())block{
+    dispatch_async(dispatch_get_main_queue(), block);
+}
+
+- (void)didReady{
+    [self dispatchBlockOnMainQueue:^{
+        NSLog(@"Audio Ready");
+    }];
+}
+
+- (void)DidStart{
+    [self dispatchBlockOnMainQueue:^{
+        NSLog(@"Audio Start");
+    }];
+}
+
+- (void)DidEnd{
+    [self dispatchBlockOnMainQueue:^{
+        NSLog(@"Audio End");
+    }];
+}
+
+
+
+
 
 @end

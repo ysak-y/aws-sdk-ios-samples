@@ -16,11 +16,11 @@
 #import "Constants.h"
 
 
-AWSRegionType const CognitoRegionType = AWSRegionUnknown; // e.g. AWSRegionUSEast1
-AWSRegionType const LexRegionType = AWSRegionUnknown;
-NSString *const CognitoIdentityPoolId = @"CognitoIdentityPoolId";
-NSString *const BotName = @"BotName";
-NSString *const BotAlias = @"$Latest";
+AWSRegionType const CognitoRegionType = AWSRegionUSEast1; // e.g. AWSRegionUSEast1
+AWSRegionType const LexRegionType = AWSRegionUSEast1;
+NSString *const CognitoIdentityPoolId = @"us-east-1:501fd8ce-ab66-483f-b385-ebb9256d8f05";
+NSString *const BotName = @"CookpadLex";
+NSString *const BotAlias = @"Dev";
 
 @implementation Constants
 

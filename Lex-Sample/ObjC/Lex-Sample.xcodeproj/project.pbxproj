@@ -8,14 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		1886365E1DCEA469008C2083 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886365D1DCEA469008C2083 /* main.m */; };
-		188636611DCEA469008C2083 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188636601DCEA469008C2083 /* AppDelegate.m */; };
-		188636641DCEA469008C2083 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188636631DCEA469008C2083 /* ViewController.m */; };
+		188636611DCEA469008C2083 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 188636601DCEA469008C2083 /* AppDelegate.mm */; };
+		188636641DCEA469008C2083 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 188636631DCEA469008C2083 /* ViewController.mm */; };
 		188636671DCEA469008C2083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188636651DCEA469008C2083 /* Main.storyboard */; };
 		188636691DCEA469008C2083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188636681DCEA469008C2083 /* Assets.xcassets */; };
 		1886366C1DCEA469008C2083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1886366A1DCEA469008C2083 /* LaunchScreen.storyboard */; };
 		18AEC3161DCEABFD009EB852 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AEC3151DCEABFD009EB852 /* Constants.m */; };
 		18AEC3211DCEAE5A009EB852 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AEC31E1DCEAE5A009EB852 /* ChatViewController.m */; };
 		18AEC3221DCEAE5A009EB852 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AEC3201DCEAE5A009EB852 /* TableViewController.m */; };
+		4C11FF201E3B53EA00513645 /* pipipi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C11FF1F1E3B53EA00513645 /* pipipi.mp3 */; };
+		4C11FF241E3EF0F100513645 /* pipipi_8000.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C11FF231E3EF0F100513645 /* pipipi_8000.mp3 */; };
+		4C11FF261E3EF13000513645 /* pipipi_16000.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C11FF251E3EF13000513645 /* pipipi_16000.mp3 */; };
+		4C11FF291E3EF26200513645 /* detection.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4C11FF281E3EF26200513645 /* detection.caf */; };
+		4C2560C71E3833C400C24398 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2560C61E3833C400C24398 /* Accelerate.framework */; };
+		4C336B321E3891AB00B14C33 /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C336B311E3891AB00B14C33 /* CAXException.cpp */; };
+		4C336BB31E38A5DC00B14C33 /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C336BB01E38A5DC00B14C33 /* CADebugMacros.cpp */; };
+		4C336BB41E38A5DC00B14C33 /* CADebugPrintf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C336BB11E38A5DC00B14C33 /* CADebugPrintf.cpp */; };
+		4C336BB81E38A61100B14C33 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C336BB71E38A61100B14C33 /* CAStreamBasicDescription.cpp */; };
+		4C336BBC1E38AE7800B14C33 /* common.res in Resources */ = {isa = PBXBuildFile; fileRef = 4C336BBA1E38AE7800B14C33 /* common.res */; };
+		4C336BBD1E38AE7800B14C33 /* snowboy.umdl in Resources */ = {isa = PBXBuildFile; fileRef = 4C336BBB1E38AE7800B14C33 /* snowboy.umdl */; };
+		4C336BBF1E397F3000B14C33 /* クックパッド.pmdl in Resources */ = {isa = PBXBuildFile; fileRef = 4C336BBE1E397F3000B14C33 /* クックパッド.pmdl */; };
+		4C67EE931E37473000B2AA7F /* libsnowboy-detect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C67EE921E37473000B2AA7F /* libsnowboy-detect.a */; };
+		4C86503D1E36E4DA007559A4 /* snowboy in Resources */ = {isa = PBXBuildFile; fileRef = 4C86503C1E36E4DA007559A4 /* snowboy */; };
+		4C8650451E36E94C007559A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8650441E36E94C007559A4 /* Foundation.framework */; };
+		4C8650471E36E954007559A4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8650461E36E954007559A4 /* CoreFoundation.framework */; };
+		4C8650491E36E95E007559A4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8650481E36E95E007559A4 /* AVFoundation.framework */; };
+		4C86504B1E36E96E007559A4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C86504A1E36E96E007559A4 /* AudioToolbox.framework */; };
+		4C86504D1E36E97A007559A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C86504C1E36E97A007559A4 /* UIKit.framework */; };
+		4C86504F1E36EFB0007559A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C86504E1E36EFB0007559A4 /* CoreGraphics.framework */; };
 		A9A8B7F6C87A5527488C5106 /* Pods_Lex_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C0F20CDECE194D2711D4DE /* Pods_Lex_Sample.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,9 +48,9 @@
 		188636591DCEA469008C2083 /* Lex-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lex-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1886365D1DCEA469008C2083 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1886365F1DCEA469008C2083 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		188636601DCEA469008C2083 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		188636601DCEA469008C2083 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		188636621DCEA469008C2083 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		188636631DCEA469008C2083 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		188636631DCEA469008C2083 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		188636661DCEA469008C2083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		188636681DCEA469008C2083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1886366B1DCEA469008C2083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -41,6 +61,34 @@
 		18AEC31E1DCEAE5A009EB852 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		18AEC31F1DCEAE5A009EB852 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		18AEC3201DCEAE5A009EB852 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		4C11FF1F1E3B53EA00513645 /* pipipi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pipipi.mp3; sourceTree = "<group>"; };
+		4C11FF231E3EF0F100513645 /* pipipi_8000.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pipipi_8000.mp3; sourceTree = "<group>"; };
+		4C11FF251E3EF13000513645 /* pipipi_16000.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pipipi_16000.mp3; sourceTree = "<group>"; };
+		4C11FF281E3EF26200513645 /* detection.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = detection.caf; sourceTree = "<group>"; };
+		4C2560C61E3833C400C24398 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		4C336B301E3891AB00B14C33 /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
+		4C336B311E3891AB00B14C33 /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
+		4C336BAF1E38A5DC00B14C33 /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		4C336BB01E38A5DC00B14C33 /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugMacros.cpp; sourceTree = "<group>"; };
+		4C336BB11E38A5DC00B14C33 /* CADebugPrintf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugPrintf.cpp; sourceTree = "<group>"; };
+		4C336BB21E38A5DC00B14C33 /* CADebugPrintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugPrintf.h; sourceTree = "<group>"; };
+		4C336BB51E38A5EC00B14C33 /* CABitOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABitOperations.h; sourceTree = "<group>"; };
+		4C336BB61E38A61100B14C33 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		4C336BB71E38A61100B14C33 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		4C336BB91E38A62200B14C33 /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
+		4C336BBA1E38AE7800B14C33 /* common.res */ = {isa = PBXFileReference; lastKnownFileType = file; path = common.res; sourceTree = "<group>"; };
+		4C336BBB1E38AE7800B14C33 /* snowboy.umdl */ = {isa = PBXFileReference; lastKnownFileType = file; path = snowboy.umdl; sourceTree = "<group>"; };
+		4C336BBE1E397F3000B14C33 /* クックパッド.pmdl */ = {isa = PBXFileReference; lastKnownFileType = file; path = "クックパッド.pmdl"; sourceTree = "<group>"; };
+		4C67EE8C1E3741A000B2AA7F /* libsnowboy-detect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libsnowboy-detect.a"; sourceTree = "<group>"; };
+		4C67EE8D1E3741A000B2AA7F /* snowboy-detect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "snowboy-detect.h"; sourceTree = "<group>"; };
+		4C67EE921E37473000B2AA7F /* libsnowboy-detect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libsnowboy-detect.a"; sourceTree = "<group>"; };
+		4C86503C1E36E4DA007559A4 /* snowboy */ = {isa = PBXFileReference; lastKnownFileType = folder; name = snowboy; path = "/Users/yoshiaki-yamada/git/aws-sdk-ios-samples/Lex-Sample/ObjC/Lex-Sample/snowboy"; sourceTree = "<absolute>"; };
+		4C8650441E36E94C007559A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C8650461E36E954007559A4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		4C8650481E36E95E007559A4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4C86504A1E36E96E007559A4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4C86504C1E36E97A007559A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C86504E1E36EFB0007559A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		83C0F20CDECE194D2711D4DE /* Pods_Lex_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lex_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE66C2AFC27D0FB4B6C5FD8 /* Pods_DeepSense_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepSense_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D857173C695756626F6FBC4 /* Pods-DeepSense-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepSense-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeepSense-Sample/Pods-DeepSense-Sample.release.xcconfig"; sourceTree = "<group>"; };
@@ -52,6 +100,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C2560C71E3833C400C24398 /* Accelerate.framework in Frameworks */,
+				4C86504F1E36EFB0007559A4 /* CoreGraphics.framework in Frameworks */,
+				4C86504D1E36E97A007559A4 /* UIKit.framework in Frameworks */,
+				4C86504B1E36E96E007559A4 /* AudioToolbox.framework in Frameworks */,
+				4C8650491E36E95E007559A4 /* AVFoundation.framework in Frameworks */,
+				4C8650471E36E954007559A4 /* CoreFoundation.framework in Frameworks */,
+				4C67EE931E37473000B2AA7F /* libsnowboy-detect.a in Frameworks */,
+				4C8650451E36E94C007559A4 /* Foundation.framework in Frameworks */,
 				A9A8B7F6C87A5527488C5106 /* Pods_Lex_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,6 +118,7 @@
 		188636501DCEA469008C2083 = {
 			isa = PBXGroup;
 			children = (
+				4C67EE8B1E3741A000B2AA7F /* snowboy */,
 				1886365B1DCEA469008C2083 /* Lex-Sample */,
 				1886365A1DCEA469008C2083 /* Products */,
 				D40B23EAC0182D8E15FBFE14 /* Pods */,
@@ -81,14 +138,28 @@
 			isa = PBXGroup;
 			children = (
 				1886365F1DCEA469008C2083 /* AppDelegate.h */,
-				188636601DCEA469008C2083 /* AppDelegate.m */,
+				188636601DCEA469008C2083 /* AppDelegate.mm */,
 				188636621DCEA469008C2083 /* ViewController.h */,
-				188636631DCEA469008C2083 /* ViewController.m */,
+				188636631DCEA469008C2083 /* ViewController.mm */,
 				18AEC31D1DCEAE5A009EB852 /* ChatViewController.h */,
 				18AEC31E1DCEAE5A009EB852 /* ChatViewController.m */,
 				18AEC31F1DCEAE5A009EB852 /* TableViewController.h */,
 				18AEC3201DCEAE5A009EB852 /* TableViewController.m */,
 				188636651DCEA469008C2083 /* Main.storyboard */,
+				4C336BB51E38A5EC00B14C33 /* CABitOperations.h */,
+				4C336B301E3891AB00B14C33 /* CAXException.h */,
+				4C336B311E3891AB00B14C33 /* CAXException.cpp */,
+				4C336BAF1E38A5DC00B14C33 /* CADebugMacros.h */,
+				4C336BB01E38A5DC00B14C33 /* CADebugMacros.cpp */,
+				4C336BB11E38A5DC00B14C33 /* CADebugPrintf.cpp */,
+				4C336BB21E38A5DC00B14C33 /* CADebugPrintf.h */,
+				4C336BB61E38A61100B14C33 /* CAStreamBasicDescription.h */,
+				4C336BB71E38A61100B14C33 /* CAStreamBasicDescription.cpp */,
+				4C336BB91E38A62200B14C33 /* CAMath.h */,
+				4C11FF1F1E3B53EA00513645 /* pipipi.mp3 */,
+				4C11FF231E3EF0F100513645 /* pipipi_8000.mp3 */,
+				4C11FF251E3EF13000513645 /* pipipi_16000.mp3 */,
+				4C11FF281E3EF26200513645 /* detection.caf */,
 				188636681DCEA469008C2083 /* Assets.xcassets */,
 				1886366A1DCEA469008C2083 /* LaunchScreen.storyboard */,
 				1886366D1DCEA469008C2083 /* Info.plist */,
@@ -110,6 +181,14 @@
 		460CCECDC81F5AF04E4BDA30 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C2560C61E3833C400C24398 /* Accelerate.framework */,
+				4C67EE921E37473000B2AA7F /* libsnowboy-detect.a */,
+				4C86504E1E36EFB0007559A4 /* CoreGraphics.framework */,
+				4C86504C1E36E97A007559A4 /* UIKit.framework */,
+				4C86504A1E36E96E007559A4 /* AudioToolbox.framework */,
+				4C8650481E36E95E007559A4 /* AVFoundation.framework */,
+				4C8650461E36E954007559A4 /* CoreFoundation.framework */,
+				4C8650441E36E94C007559A4 /* Foundation.framework */,
 				18780E531DDA5357003EF17F /* AWSCore.framework */,
 				18780E541DDA5357003EF17F /* AWSDeepSense.framework */,
 				18780E551DDA5357003EF17F /* AWSResources.bundle */,
@@ -117,6 +196,18 @@
 				83C0F20CDECE194D2711D4DE /* Pods_Lex_Sample.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C67EE8B1E3741A000B2AA7F /* snowboy */ = {
+			isa = PBXGroup;
+			children = (
+				4C67EE8C1E3741A000B2AA7F /* libsnowboy-detect.a */,
+				4C67EE8D1E3741A000B2AA7F /* snowboy-detect.h */,
+				4C336BBA1E38AE7800B14C33 /* common.res */,
+				4C336BBB1E38AE7800B14C33 /* snowboy.umdl */,
+				4C336BBE1E397F3000B14C33 /* クックパッド.pmdl */,
+			);
+			path = snowboy;
 			sourceTree = "<group>";
 		};
 		D40B23EAC0182D8E15FBFE14 /* Pods */ = {
@@ -137,12 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 188636701DCEA469008C2083 /* Build configuration list for PBXNativeTarget "Lex-Sample" */;
 			buildPhases = (
-				4DD8CA495E2CB8A3E55BC647 /* 📦 Check Pods Manifest.lock */,
+				4DD8CA495E2CB8A3E55BC647 /* [CP] Check Pods Manifest.lock */,
 				188636551DCEA469008C2083 /* Sources */,
 				188636561DCEA469008C2083 /* Frameworks */,
 				188636571DCEA469008C2083 /* Resources */,
-				F81CF37DBFE31DC5CB6946BB /* 📦 Embed Pods Frameworks */,
-				A3A997C0CACAEB9EAB7FB697 /* 📦 Copy Pods Resources */,
+				F81CF37DBFE31DC5CB6946BB /* [CP] Embed Pods Frameworks */,
+				A3A997C0CACAEB9EAB7FB697 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,11 +250,12 @@
 		188636511DCEA469008C2083 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Amazon Web Services";
 				TargetAttributes = {
 					188636581DCEA469008C2083 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DE65TWVP2D;
 					};
 				};
 			};
@@ -190,38 +282,46 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C86503D1E36E4DA007559A4 /* snowboy in Resources */,
+				4C11FF261E3EF13000513645 /* pipipi_16000.mp3 in Resources */,
 				1886366C1DCEA469008C2083 /* LaunchScreen.storyboard in Resources */,
+				4C11FF241E3EF0F100513645 /* pipipi_8000.mp3 in Resources */,
 				188636691DCEA469008C2083 /* Assets.xcassets in Resources */,
+				4C11FF201E3B53EA00513645 /* pipipi.mp3 in Resources */,
+				4C336BBD1E38AE7800B14C33 /* snowboy.umdl in Resources */,
 				188636671DCEA469008C2083 /* Main.storyboard in Resources */,
+				4C11FF291E3EF26200513645 /* detection.caf in Resources */,
+				4C336BBF1E397F3000B14C33 /* クックパッド.pmdl in Resources */,
+				4C336BBC1E38AE7800B14C33 /* common.res in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4DD8CA495E2CB8A3E55BC647 /* 📦 Check Pods Manifest.lock */ = {
+		4DD8CA495E2CB8A3E55BC647 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		A3A997C0CACAEB9EAB7FB697 /* 📦 Copy Pods Resources */ = {
+		A3A997C0CACAEB9EAB7FB697 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,14 +329,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lex-Sample/Pods-Lex-Sample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F81CF37DBFE31DC5CB6946BB /* 📦 Embed Pods Frameworks */ = {
+		F81CF37DBFE31DC5CB6946BB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,12 +351,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				188636641DCEA469008C2083 /* ViewController.m in Sources */,
+				188636641DCEA469008C2083 /* ViewController.mm in Sources */,
 				18AEC3221DCEAE5A009EB852 /* TableViewController.m in Sources */,
-				188636611DCEA469008C2083 /* AppDelegate.m in Sources */,
+				188636611DCEA469008C2083 /* AppDelegate.mm in Sources */,
+				4C336B321E3891AB00B14C33 /* CAXException.cpp in Sources */,
 				18AEC3211DCEAE5A009EB852 /* ChatViewController.m in Sources */,
+				4C336BB41E38A5DC00B14C33 /* CADebugPrintf.cpp in Sources */,
 				1886365E1DCEA469008C2083 /* main.m in Sources */,
+				4C336BB31E38A5DC00B14C33 /* CADebugMacros.cpp in Sources */,
 				18AEC3161DCEABFD009EB852 /* Constants.m in Sources */,
+				4C336BB81E38A61100B14C33 /* CAStreamBasicDescription.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,8 +400,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -340,8 +446,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -369,13 +477,28 @@
 			baseConfigurationReference = A10D1A43DDFE5EA67D5CEE04 /* Pods-Lex-Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				DEVELOPMENT_TEAM = DE65TWVP2D;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Lex-Sample",
 				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Lex-Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Lex-Sample",
+					"$(PROJECT_DIR)/snowboy",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.amazonaws.sdk.ios.sample.Lex-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -386,13 +509,27 @@
 			baseConfigurationReference = 09E2806ACC6D746F70E52796 /* Pods-Lex-Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				DEVELOPMENT_TEAM = DE65TWVP2D;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Lex-Sample",
 				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Lex-Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Lex-Sample",
+					"$(PROJECT_DIR)/snowboy",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.amazonaws.sdk.ios.sample.Lex-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

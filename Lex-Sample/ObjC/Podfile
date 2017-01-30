@@ -5,6 +5,7 @@ use_frameworks!
 target :'Lex-Sample' do
   pod 'JSQMessagesViewController', '~>7.3.4'
   pod 'AWSLex', '~>2.4.13'
+  pod "AWSPolly"
 end
 
 
